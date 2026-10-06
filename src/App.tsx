@@ -71,7 +71,7 @@ export default function App() {
   return (
     <div className="layout">
       <aside className="sidebar">
-        <h1>⚛️ React Session</h1>
+        <h1>⚛️ This React Session</h1>
         {projects.map((p, i) => (
           <button
             key={p.title}
